@@ -16,5 +16,8 @@ class Camera{
 
 
 module.exports = {
+
+    GameObject,
+    Camera
     
 }
