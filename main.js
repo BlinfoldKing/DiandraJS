@@ -1,9 +1,11 @@
-const Camera = require('./Camera')
-const GameObject = require('./GameObject');
+const Engine = require('./Engine')
+const GameObject = require('./GameObject')
+const Physics = require('./Physic')
 
 module.exports = {
 
     GameObject,
-    Camera
+    Engine,
+    Physics
     
 }

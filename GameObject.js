@@ -4,6 +4,11 @@ class GameObject{
         console.log("hello world")
     }
 
+    onColide(){
+        
+    }
+
+
 }
 
 module.exports = GameObject

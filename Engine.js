@@ -1,4 +1,4 @@
-class Camera{
+class Engine{
 
     let canvas;
 
@@ -6,11 +6,19 @@ class Camera{
         console.log("hello world")
     }
 
-    getCanvas(path){
+    getCanvas(id){
+        this.canvas = document.getElementById(id);
+    }
+
+    render(){
         
+    }
+
+    draw(GameObject){
+
     }
 
 
 }
 
-module.exports = Camera
+module.exports = Engine
