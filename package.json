@@ -1,0 +1,23 @@
+{
+  "name": "diandrajs",
+  "version": "0.0.1",
+  "description": "minimalist and multiplatform game framework with web technology ",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo hello world"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BlinfoldKing/DiandraJS.git"
+  },
+  "keywords": [
+    "game",
+    "framework"
+  ],
+  "author": "blinfoldking",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BlinfoldKing/DiandraJS/issues"
+  },
+  "homepage": "https://github.com/BlinfoldKing/DiandraJS#readme"
+}
