@@ -1,20 +1,41 @@
+const GameObject = require('./GameObject')
+
 class Engine{
 
-    let canvas;
+    let canvas
 
-    constructor(){
-        console.log("hello world")
+    const obj = []
+    let update
+
+
+    constructor(id) {
+        getCanvas(id)
+        isRunning = true
     }
 
-    getCanvas(id){
+    start() {
+        obj.forEach(element => {
+          element.OnInit() 
+        })array
+
+        this.update = setInterval(obj.forEach(element => {
+            element.OnUpdate()
+        }),200)
+    }
+
+    stop() {
+        clearInterval(this.update)
+    }
+
+    getCanvas(id) {
         this.canvas = document.getElementById(id);
     }
 
-    render(){
+    render() {
         
     }
 
-    draw(GameObject){
+    draw(GameObject) {
 
     }
 

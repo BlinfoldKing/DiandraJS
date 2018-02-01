@@ -18,14 +18,14 @@ class vector{
         this.y += v.y
     }
 
-    rotate = (rad) => {
-        
-
+    rotate = (deg) => {
+        this.x = x  * Math.cos((deg/360) * 2 * Math.PI) + y  * Math.sin((deg/360) * 2 * Math.PI)
+        this.y = y  * Math.cos((deg/360) * 2 * Math.PI) - x  * Math.sin((deg/360) * 2 * Math.PI)
     }
 
     multiply = (n) => {
-        this.x *= n;
-        this.y *= n;
+        this.x *= n
+        this.y *= n
     }  
 
 }
