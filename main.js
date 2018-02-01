@@ -1,19 +1,5 @@
-class GameObject{
-
-    constructor(){
-        console.log("hello world")
-    }
-
-}
-
-class Camera{
-
-    constructor(screenWidth, screenLength){
-
-    }
-
-}
-
+const Camera = require('./Camera')
+const GameObject = require('./GameObject');
 
 module.exports = {
 
