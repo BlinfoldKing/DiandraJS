@@ -1,12 +1,16 @@
-class GameObject{
+class Camera{
+
+    let canvas;
 
     constructor(){
         console.log("hello world")
     }
 
-    getHtml(path){
+    getCanvas(path){
         
     }
 
 
 }
+
+module.exports = Camera
